@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(
+            20px
+          ); /* Optional for a slight upward movement */
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in {
+        opacity: 0; /* Start hidden */
+        transform: translateY(20px); /* Optional for a slight upward movement */
+        animation: fadeIn 1s ease-in forwards;
+      }
+
+      .sticky-container {
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        top: 0;
+        background: white; /* To ensure visibility */
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      .logo {
+        margin-right: 430px;
+      }
+      .typewriter h1 {
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: 0.1.8em;
+        animation: typewriter 1.75s steps(40, end) 1.4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Navbar">
+      <span class="logo">
+        <img src="../log2.png" width="60px" height="60px"
+      /></span>
+      <a href="#">Home</a>
+      <a href="#paraabout">About</a>
+      <a href="#skil">Skills</a>
+      <a href="#">Projects</a>
+      <a href="#conT">Contact</a>
+      <a class="re" href="../resume.jpg">Resume</a>
+    </div>
+    <div class="Port">
+      <div class="typewriter">
+        <span class="name1"> Hi my name is</span> <br />
+        <h1 class="name">Siva Surya B</h1>
+        <br />
+        <span class="name2"
+          >A professional & imaginative Fullstack Developer. I specialise in
+        </span>
+        <span class="name2">building and designing </span>
+        <br />
+        <span class="name2">
+          exceptional experiences. I love adding clarity to complicated concepts
+          with my work.</span
+        >
+        <br />
+        <br />
+        <a href="#conT"> <button class="but">Get In Touch</button></a>
+      </div>
+    </div>
+
+    <div class="About fade-in">
+      <h1 class="name4">About Me</h1>
+      <p class="p4" id="paraabout">
+        Hello my name is Surya. I enjoy solving problems with clean scalable
+        solutions. I have a genuine passion for creating things that live on the
+        internet. My passion for software engineering started way back in 2022
+        when I started developing websites using Wordpress. Fast forward to
+        today, I've had the privilege of working with some great companies like,
+        Facebook, Apple, Amazon, Netflix, and Google. Here are some technologies
+        that I've been working on recently
+        <br />
+        <br />
+      </p>
+    </div>
+    <br />
+    <br />
+    <div class="skills" id="skil">
+      <div class="skill-box">
+        <h3>HTML,CSS</h3>
+        <p>Details about skill 1</p>
+      </div>
+      <div class="skill-box">
+        <h3>JAVA</h3>
+        <p>Details about skill 2</p>
+      </div>
+      <div class="skill-box">
+        <h3>REACT</h3>
+        <p>Details about skill 3</p>
+      </div>
+      <div class="skill-box">
+        <h3>MySql</h3>
+        <p>Details about skill 3</p>
+      </div>
+      <div class="skill-box">
+        <h3>Git And GitHub</h3>
+        <p>Details about skill 3</p>
+      </div>
+      <div class="skill-box">
+        <h3>DSA & DAA</h3>
+        <p>Details about skill 3</p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="contact" id="conT">
+      <div class="about-card">
+        <div class="col">
+          <div class="avatar">
+            <img
+              src="https://static.wixstatic.com/media/f9fd19_31a4cbfd0fdb47fbb53e98df657261ed~mv2.gif"
+              alt="Avatar"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <h2>B.Siva Surya</h2>
+          <b> <strong>Web Developer</strong></b>
+          <div class="inline-social">
+            <a href="https://www.linkedin.com/in/siva-surya-b-a7254924a/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+
+            <a href=""><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="inline-social-long">
+            <span
+              ><i class="fas fa-compass"></i>
+              <a href="">SankaranKovil,Tirunelveli(627-756)</a></span
+            >
+            <span
+              ><i class="fas fa-envelope"></i>
+              <a href="">https://www.linkedin.com/in/siva-surya-b-a</a></span
+            >
+            <span
+              ><i class="fab fa-internet-explorer"></i>
+              <a href="">https://www.softwebtuts.com</a></span
+            >
+            <span
+              ><i class="fas fa-phone"></i> <a href="">+92-3037465988</a></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
