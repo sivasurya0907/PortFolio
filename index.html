@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Portfolio</title>
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -12,6 +13,31 @@
       rel="stylesheet"
     />
     <style>
+      /* .skill-box {
+  position: relative;
+  width: 200px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  transition: background-color 0.3s ease;
+} */
+
+/* .skill-box:hover {
+  background-color: #f0f0f0; 
+} */
+
+.skill-box p {
+  display: none; 
+  margin-top: 10px;
+  color: #ffffff;
+  transition: opacity 0.3s ease;
+}
+
+.skill-box:hover p {
+  display: block; 
+  opacity: 1;
+}
+
        .styled-button {
         background-color: #b93885;
         color: white; 
@@ -58,7 +84,7 @@
         padding: 10px;
         margin-bottom: 20px;
       }
-
+       
       @keyframes typewriter {
         from {
           width: 0;
@@ -116,20 +142,7 @@
     <div class="abtABT">
       <div class="About fade-in">
         <p class="p4" id="paraabout">
-          As a professional and imaginative Fullstack Developer, I specialize in
-          building and designing exceptional experiences. My passion lies in
-          transforming complex concepts into clear, user-friendly solutions.
-          With a strong background in Java and web development, I am a dedicated
-          problem solver who thrives on tackling challenging projects and
-          delivering high-quality results. Whether I'm working on the front end
-          or back end, my goal is to create seamless and innovative digital
-          experiences that leave a lasting impact. In addition, I actively solve
-          problems on LeetCode, constantly honing my skills and staying current
-          with the latest trends and best practices in programming and software
-          development. My curiosity and drive for continuous learning ensure
-          that I am always up-to-date with new technologies. I am committed to
-          collaborating with teams to bring visionary ideas to life and deliver
-          exceptional value to users.
+          As an enthusiastic and imaginative Fullstack Developer and an ECE student, I specialize in building and designing exceptional experiences. My passion lies in transforming complex concepts into clear, user-friendly solutions. With a strong foundation in Java and web development, I am a dedicated problem solver who enjoys tackling challenging projects and delivering high-quality results. Whether I'm working on the front end or back end, my goal is to create seamless and innovative digital experiences that leave a lasting impact. Additionally, I actively solve problems on LeetCode, constantly honing my skills and staying current with the latest trends and best practices in programming and software development. My curiosity and drive for continuous learning ensure that I am always up-to-date with new technologies. I am eager to collaborate with teams to bring visionary ideas to life and deliver exceptional value to users.
         </p>
         <br />
         <br />
@@ -153,11 +166,12 @@
 
           <div class="skill-box">
             <h3>DATABASE<br />MANAGEMENT</h3>
-            <p>Skilled in MySQL</p>
+          
+            <p class="hidden">Skilled in MySQL</p>
           </div>
           <div class="skill-box">
             <h3>VERSION CONTROL</h3>
-            <p>Experienced with Git and GitHub</p>
+            <p>Experienced with Git and GitHub,Visual code</p>
           </div>
           <div class="skill-box">
             <h3>ALGORITHM<br />DESIGN</h3>
