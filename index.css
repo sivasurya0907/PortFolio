@@ -29,6 +29,10 @@ body {
   justify-content: flex-end;
   background-color: #f0eae4;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the navbar is above other elements */
 }
 
 .skillsfull {
